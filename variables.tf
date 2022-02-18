@@ -24,6 +24,12 @@ variable "target_node" {
   default = "pve1"
 }
 
+variable "template_name" {
+  type    = string
+  default = "ubuntu-2004-cloudinit-template"
+}
+
+
 variable "static_ip" {
   type    = string
   default = "192.168.0.100/24"
